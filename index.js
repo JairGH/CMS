@@ -65,7 +65,7 @@ function init() {
           },
         ])
         .then((data) => {
-          console.log(data)
+          console.table(data)
         })
         // questions first_name, last_name, role and manager
         // grab new data
